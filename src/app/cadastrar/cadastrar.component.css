@@ -1,0 +1,28 @@
+#img-bg{
+    background-image: url('https://imgur.com/ep5RazB.jpg');
+    
+    min-height: 695px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-c{
+    background-color:#7ED9D9;
+}
+
+.bd{
+    border-radius: 20px;
+}
+.bg-m{
+    background-color: floralwhite;
+}
+
+.font-c{
+    
+     color:#fbfdff; 
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(4, 40, 243);  
+    
+    
+}
