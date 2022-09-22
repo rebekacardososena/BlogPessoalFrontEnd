@@ -40,6 +40,7 @@ idUser = environment.id
     }
     this.getAllTemas()
     this.getAllPostagens()
+    this.findByIdUser()
     
   }
 
@@ -62,11 +63,12 @@ idUser = environment.id
   }
 
   findByIdUser(){
-    this.authService.getByIdUser(this.idUser).subscribe((resp: User) =>{
+    this.authService.getByIdUser(this.idUser).subscribe((resp: User)=>{
       this.user = resp
     })
+  }
   
-    }
+    
   
 
   publicar(){
