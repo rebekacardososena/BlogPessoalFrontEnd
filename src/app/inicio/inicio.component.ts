@@ -26,6 +26,9 @@ idTema: number
 user: User = new User()
 idUser = environment.id
 
+key = 'data'
+reverse = true
+
   constructor(
     private router: Router,
     private postagemService: PostagemService,
